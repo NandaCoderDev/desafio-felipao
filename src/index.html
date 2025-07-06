@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- estilo -->
+    <title>Ranking Heróis</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ranking de Heróis</h1>
+        <p>Digite seu Nome e Pontos e descubra qual seu Nível</p>
+
+        <form id="add-hero-form">
+            <div class="form-group">
+                <input type="text" id="hero-name" placeholder="Nome do Herói" required>
+            </div>
+            <div class="form-group">
+                <input type="number" id="hero-xp" placeholder="Pontos de Experiência (XP)" required min="0"> 
+            </div>
+            <button type="submit">Adicionar Herói</button>
+        </form>
+
+
+        <table id="ranking-table">
+            <thead>
+                <tr>
+                    <th>Posição</th>
+                    <th>Herói</th>
+                    <th>XP</th>
+                    <th>Nível</th>
+                </tr>
+            </thead>
+            <tbody id="ranking-body">
+
+            </tbody>
+        </table>
+    </div>
+   <script src="index.js"></script> 
+</body>
+</html>

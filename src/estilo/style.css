@@ -1,0 +1,80 @@
+body{
+    font-family: Arial,sans-serif;
+    background-image: url(../imagem/senhor\ dos\ aneis.jpg);
+    color: #fbf9fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    text-align: center;
+    background-color: #020233;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #bb86fc;
+}
+
+#ranking-table {
+    width: 100%;;
+    margin-top: 25px;
+    border-collapse: collapse;
+    font-size: 1.1em;
+}
+
+.ranking-table th,
+.ranking-table td {
+    padding: 12px 15px;
+    border: 1px solid #f6f6f8;
+}
+
+#ranking-table th {
+    background-color: #4f4f52;
+    color: #fafcfc;
+    font-weight: bold;
+}
+
+#ranking-table tbody tr:hover {
+    background-color: #aa07f5;
+    cursor: default;
+}
+/* --- Estilos do Formulário --- */
+#add-hero-form {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+   
+}
+
+#add-hero-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bb86fc;
+    color: #090229;
+    font-weight: bold;
+    width: 250px;
+
+}
+/* Estilizando o texto do placeholder para melhor contraste */
+#add-hero-form input::placeholder {
+    color: #aaa;
+    font-weight: normal;
+}
+
+#add-hero-form button {
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+#add-hero-form button:hover{
+    background-color: #0a06f1;
+}
