@@ -1,6 +1,6 @@
 body{
     font-family: Arial,sans-serif;
-    background-image: url(../imagem/senhor\ dos\ aneis.jpg);
+    background-image: url(../imagem/senhor-dos-aneis.jpg);
     color: #fbf9fd;
     display: flex;
     justify-content: center;
@@ -18,7 +18,14 @@ body{
 }
 
 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 16px;
     color: #bb86fc;
+}
+
+p {
+    margin-bottom: 10px;;
 }
 
 #ranking-table {
@@ -28,10 +35,11 @@ h1 {
     font-size: 1.1em;
 }
 
-.ranking-table th,
-.ranking-table td {
+#ranking-table th,
+#ranking-table td {
     padding: 12px 15px;
     border: 1px solid #f6f6f8;
+    
 }
 
 #ranking-table th {
@@ -62,6 +70,7 @@ h1 {
     color: #090229;
     font-weight: bold;
     width: 250px;
+    font-size: 16px;;
 
 }
 /* Estilizando o texto do placeholder para melhor contraste */
@@ -71,10 +80,17 @@ h1 {
 }
 
 #add-hero-form button {
-    padding: 10px 20px;
+    padding: 18px 20px;
     border-radius: 6px;
+    border: none;
+    background-color: #0b07e6;
+    color: #fcf6f6;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
+
 #add-hero-form button:hover{
-    background-color: #0a06f1;
+    background-color: #a06cd5;
 }
